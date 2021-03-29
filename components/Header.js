@@ -1,10 +1,11 @@
 import React from 'react';
 import Link from 'next/link'
+import Image from  'next/image'
 const Header = () => {
     return (
         <nav>
             <div className="logo">
-                <h1>NINJAS</h1>
+            <Image src="/vercel.svg" width={128} height={80} alt=""/>
             </div>
           <Link href="/"><a >Home</a></Link>  
           <Link href="/about"><a >About</a></Link>  
