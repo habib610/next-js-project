@@ -9,7 +9,7 @@ const getStaticPaths = async()=> {
         }
     })
     return {
-        ninja,
+        paths,
         fallback: false
     }
 }
